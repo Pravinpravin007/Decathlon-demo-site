@@ -1,7 +1,10 @@
 import React from 'react'
+import Delivery from '../Img/Delivery.jpg'
 
 export const Home = () => {
   return (
-    <div ><h5 style={{backgroundColor:'red'}}>HomePage</h5></div>
+    <div>
+      Home
+    </div>
   )
 }
