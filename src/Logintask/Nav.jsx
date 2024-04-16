@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navcss.css'
 import { Link } from 'react-router-dom'
-import Delivery from '../Img/Delivery.jpg'
+
 
 export const Nav = () => {
   return (
@@ -30,7 +30,7 @@ export const Nav = () => {
   <div className=''><p>Delivery Location</p></div>
   <div className='text-warning d-flex '>
     <p className='me-3'>600013</p>
-    <Link to='/Change1'><a className='text-light' style={{textDecoration:"none"}}>CHANGE</a></Link>
+    <Link to='/Change1'className='text-light' style={{textDecoration:"none"}}>CHANGE</Link>
     </div>
   </div>
 </span>
@@ -90,9 +90,9 @@ export const Nav = () => {
   
 </div> 
 
-{/* <img src={Delivery}></img> */}
     </div>
-    
+
+
   )
 }
 
